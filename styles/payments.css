@@ -1,0 +1,33 @@
+.payments {
+    
+}
+.payments .containers {
+
+}
+.payments .containers .container {
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid #DADFE7;
+    width: 90%;
+    height: 40px;
+    padding: 0 10px;
+    margin: 10px 0;
+    /* background-color: rgb(164, 221, 164); */
+    /* background-color: rgb(252, 184, 184); */
+}
+.payments .containers  .paid {
+    background-color: rgb(164, 221, 164);
+}
+.payments .containers  .not_paid {
+    background-color: rgb(252, 184, 184);
+}
+.payments .containers .container .info{
+    display: flex;
+    align-items: center;
+}
+.payments .containers .container .info h2{
+
+}
+.payments .containers .container .info span{
+    font-weight: 500;
+}

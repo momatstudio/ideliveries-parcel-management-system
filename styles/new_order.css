@@ -1,0 +1,29 @@
+.new_order {
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+    /* border: 1px solid; */
+}
+.new_order form {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 70%;
+    padding: 20px;
+    border: 1px solid #DADFE7;
+}
+.new_order .container {
+    display: flex;
+    flex-direction: column;
+    width: 285px;
+    padding: 5px;
+}
+.new_order .container label{
+    padding-left: 10px;
+}
+.new_order .container input, .new_order .container select{
+    height: 30px;
+    margin: 5px;
+    border: 1px solid #DADFE7;
+    padding: 0 5px;
+}

@@ -1,0 +1,31 @@
+.track_deliveries {
+    
+}
+.track_deliveries .search{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+.track_deliveries .search input{
+    width: 600px;
+    height: 40px;
+    border-radius: 20px;
+    padding: 0 10px;
+    border: 1px solid #DADFE7;
+}
+.track_deliveries .tracking {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.track_deliveries .tracking .container {
+    display: flex;
+    justify-content: space-between ;
+    width: 800px;
+    border: 1px solid #DADFE7;
+    margin-top: 20px;
+    padding: 10px;
+}
+.track_deliveries .tracking .container span{
+    font-weight: 400;
+}

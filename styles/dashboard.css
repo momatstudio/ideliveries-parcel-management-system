@@ -1,0 +1,25 @@
+.dashboard {
+    /* border: 1px solid; */
+}
+.dashboard .containers {
+    display: flex;
+    flex-wrap: wrap;
+}
+.dashboard .containers .container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: center;
+    width: 300px;
+    height: 100px;
+    border: 1px solid #DADFE7;
+    margin: 10px;
+    
+}
+.dashboard .containers .container h1 {
+    padding-right: 20px;
+}
+.dashboard .containers .container span {
+    padding-right: 20px;
+    font-weight: 500;
+}

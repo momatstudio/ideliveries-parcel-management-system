@@ -1,0 +1,44 @@
+.my_account {
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.my_account .containers {
+    display: flex;
+    justify-content: center;
+}
+.my_account form {
+    display: flex;
+    flex-wrap: wrap;
+    /* justify-content: ; */
+    width: 70%;
+    padding: 20px;
+    border: 1px solid #DADFE7;
+}
+.my_account .container {
+    display: flex;
+    flex-direction: column;
+    width: 285px;
+    padding: 5px;
+    /* border: 1px solid; */
+}
+.my_account .container label{
+    padding-left: 10px;
+    font-weight: bold;
+}
+.my_account .container input, .my_account .container select{
+    height: 30px;
+    margin: 5px;
+    border: 1px solid #DADFE7;
+    padding: 0 5px;
+    border: none;
+}
+.my_account .buttons{
+   display: flex;
+   justify-content: space-between;
+}
+.my_account button{
+    width: 440px;
+    margin: 5px;
+}

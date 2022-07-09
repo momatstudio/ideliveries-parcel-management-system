@@ -1,0 +1,28 @@
+.sub_main {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+main .sub_main .wrap{
+    display: flex;
+    flex-direction: column;
+    /* border: 1px solid; */
+    width: 98%;
+}
+main .sub_main .wrap .title{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 80px;
+}
+main .wrap button{
+    background-color: rgb(9, 6, 120);
+    color: white;
+    float: right;
+}
+
+main .wrap button a{
+    color: white;
+    font-weight: 400;
+}

@@ -1,0 +1,16 @@
+.checkout {
+  display: flex;
+  justify-content: center;
+}
+.checkout .containers {
+}
+.checkout .containers .container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  height: 100px;
+  /* border: 1px solid; */
+}
+.checkout .containers .container span {
+}

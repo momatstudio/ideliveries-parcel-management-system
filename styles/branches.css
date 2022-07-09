@@ -1,0 +1,31 @@
+.branches {
+    
+}
+.branches .containers{
+    display: flex;
+    flex-wrap: wrap;
+    /* border: 1px solid; */
+}
+.branches .container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #DADFE7;
+    width: 230px;
+    height: 250px;
+    padding: 0 10px;
+    margin: 10px;
+}
+.branches .container .info{
+    display: flex;
+    align-items: center;
+    /* border: 1px solid; */
+}
+.branches .container span{
+    padding: 15px;
+    font-weight: 500;
+}
+.branches .container h2{
+   font-size: 20px;
+}

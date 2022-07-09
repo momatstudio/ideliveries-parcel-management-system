@@ -1,0 +1,33 @@
+.order_list {
+    
+}
+.order_list .containers{
+    display: flex;
+    flex-wrap: wrap;
+}
+.order_list .container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #DADFE7;
+    width: 235px;
+    height: 250px;
+    padding: 0 10px;
+    margin: 10px;
+}
+.order_list .paid {
+    color: #58da58;
+}
+.order_list .not_paid {
+    color: #e86969;
+}
+.order_list .container .info{
+    display: flex;
+    align-items: center;
+    /* border: 1px solid; */
+}
+.order_list .container span{
+    padding: 15px;
+    font-weight: 500;
+}

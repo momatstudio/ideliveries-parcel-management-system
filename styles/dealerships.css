@@ -1,0 +1,31 @@
+.dealerships {
+    
+}
+.dealerships .containers{
+    display: flex;
+    flex-wrap: wrap;
+    /* border: 1px solid; */
+}
+.dealerships .container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #DADFE7;
+    width: 250px;;
+    height: 250px;
+    padding: 0 10px;
+    margin: 10px;
+}
+.dealerships .container .info{
+    display: flex;
+    align-items: center;
+    /* border: 1px solid; */
+}
+.dealerships .container span{
+    padding: 15px;
+    font-weight: 500;
+}
+.dealerships .container h2{
+   font-size: 20px;
+}

@@ -1,0 +1,40 @@
+.single_delivery {
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.single_delivery form {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 70%;
+    padding: 20px;
+    border: 1px solid #DADFE7;
+}
+.single_delivery .container {
+    display: flex;
+    flex-direction: column;
+    width: 285px;
+    padding: 5px;
+    /* border: 1px solid; */
+}
+.single_delivery .container label{
+    padding-left: 10px;
+    font-weight: bold;
+}
+.single_delivery .container input, .single_delivery .container select{
+    height: 30px;
+    margin: 5px;
+    border: 1px solid #DADFE7;
+    padding: 0 5px;
+    border: none;
+}
+.single_delivery .buttons{
+   display: flex;
+   justify-content: space-between;
+}
+.single_delivery button{
+    width: 440px;
+    margin: 5px;
+}
